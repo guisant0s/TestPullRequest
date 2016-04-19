@@ -24,6 +24,16 @@ public class PrinterColor implements Printer {
 
 	@Override
 	public boolean hasScanner() {
-		return false;
+		return true;
+	}
+
+	@Override
+	public void print() {
+		System.out.println("Teste de impressão");
+	}
+
+	@Override
+	public void cancelPrint() {
+		System.out.println("Cancelar impressão");
 	}
 }
