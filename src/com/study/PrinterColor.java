@@ -31,4 +31,9 @@ public class PrinterColor implements Printer {
 	public void print() {
 		System.out.println("Teste de impressão");
 	}
+
+	@Override
+	public void cancelPrint() {
+		System.out.println("Cancelar impressão");
+	}
 }
