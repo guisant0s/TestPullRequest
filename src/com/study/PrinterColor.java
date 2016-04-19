@@ -22,4 +22,8 @@ public class PrinterColor implements Printer {
 		return false;
 	}
 
+	@Override
+	public boolean hasScanner() {
+		return false;
+	}
 }
