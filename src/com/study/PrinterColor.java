@@ -26,4 +26,9 @@ public class PrinterColor implements Printer {
 	public boolean hasScanner() {
 		return false;
 	}
+
+	@Override
+	public void print() {
+		System.out.println("Teste de impessão");
+	}
 }
